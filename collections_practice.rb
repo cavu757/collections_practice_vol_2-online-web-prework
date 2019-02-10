@@ -103,7 +103,7 @@ def organize_schools(schools)
   
   hsh1 = schools.group_by{|k, v| v}
   
-  p hsh1.count 
+  # while a_ct < hsh1.count 
   
   p arr1 = hsh1.values[0].flatten
   p hsh1.keys[0]
@@ -119,7 +119,7 @@ def organize_schools(schools)
   
   p hsh2 = {arr2[0] => arr1}
   
-  
+  a_ct += 1 
   
 
 
