@@ -110,6 +110,9 @@ def organize_schools(schools)
   
   p arr1
   
+  p hsh1.keys[0].flatten
+  
+  
   
 
 
