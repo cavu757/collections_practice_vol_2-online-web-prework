@@ -106,7 +106,7 @@ def organize_schools(schools)
   p arr1 = hsh1.values[0].flatten
   p hsh1.keys[0]
   
-  p arr1.delete(hs1.keys[0])
+  p arr1.delete(hsh1.keys[0])
   
   
 
