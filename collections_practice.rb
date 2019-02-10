@@ -97,7 +97,7 @@ def organize_schools(schools)
   arr2 = []
   hsh1 = {}
   hsh2 = {}
-  a_ct=1
+  a_ct=0 
   
   
   
@@ -105,19 +105,19 @@ def organize_schools(schools)
   
   # while a_ct < hsh1.count 
   
-  p arr1 = hsh1.values[0].flatten
-  p hsh1.keys[0]
+  p arr1 = hsh1.values[1].flatten
+  p hsh1.keys[1]
   
-  arr1.delete(hsh1.keys[0])
+  arr1.delete(hsh1.keys[1])
   
   p arr1.class
   
-  arr2 = hsh1.keys[0].flatten
+  arr2 = hsh1.keys[1].flatten
   arr2.delete(:location)
   
   p arr2 
   
-  p hsh2 = {arr2[0] => arr1}
+  p hsh2 = {arr2[1] => arr1}
   
   # a_ct += 1 
   
