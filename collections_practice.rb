@@ -99,8 +99,9 @@ def organize_schools(schools)
   hsh2 = {}
   a_ct=0
   
-  p hsh1 = schools.group_by{|k, v| v}
+  hsh1 = schools.group_by{|k, v| v}
   
+  p hsh1[0].values 
   
   
 
