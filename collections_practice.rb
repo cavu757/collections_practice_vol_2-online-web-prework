@@ -99,24 +99,16 @@ def organize_schools(schools)
   hsh2 = {}
   hsh3 = {}
   a_ct=0 
-  
-  
-  
   hsh1 = schools.group_by{|k, v| v}
-  
   while a_ct < hsh1.count 
     arr1 = hsh1.values[a_ct].flatten
     hsh1.keys[a_ct]
     arr1.delete(hsh1.keys[a_ct])
-    
     arr2 = hsh1.keys[a_ct].flatten
     arr2.delete(:location)
-     
     hsh2 = {arr2[0] => arr1}
     hsh3 = hsh3.merge(hsh2)
-  
     a_ct += 1 
   end
   hsh3
-
 end
