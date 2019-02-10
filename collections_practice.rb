@@ -115,7 +115,7 @@ def organize_schools(schools)
   
   p arr2 
   
-  p hsh2 = {arr1 => arr2}
+  p hsh2 = {arr2[0] => arr1}
   
   
   
