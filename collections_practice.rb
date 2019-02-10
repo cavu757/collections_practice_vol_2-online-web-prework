@@ -99,9 +99,9 @@ def organize_schools(schools)
   hsh2 = {}
   a_ct=0
   
-  p hsh1 = schools.group_by{|k, v| v}
-  p hsh1.keys
-  p hsh1.values 
+  hsh1 = schools.group_by{|k, v| v}
+  
+  p schools.flatten
   
 
 
