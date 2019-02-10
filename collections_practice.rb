@@ -97,7 +97,7 @@ def organize_schools(schools)
   arr2 = []
   hsh1 = {}
   hsh2 = {}
-  a_ct=0
+  a_ct=1
   
   
   
