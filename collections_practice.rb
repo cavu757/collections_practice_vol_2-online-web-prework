@@ -101,7 +101,7 @@ def organize_schools(schools)
   
   hsh1 = schools.group_by{|k, v| v}
   
-  p hsh1.flatten
+  p arr1 = schools.flatten
   
 
 
