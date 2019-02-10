@@ -110,7 +110,7 @@ def organize_schools(schools)
   
   arr1.delete(hsh1.keys[1])
   
-  p arr1.class
+  p arr1
   
   arr2 = hsh1.keys[1].flatten
   arr2.delete(:location)
