@@ -117,6 +117,6 @@ def organize_schools(schools)
   
     a_ct += 1 
   end
-
+  hsh3
 
 end
