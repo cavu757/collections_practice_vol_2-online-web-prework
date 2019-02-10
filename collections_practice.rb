@@ -110,7 +110,7 @@ def organize_schools(schools)
   
   p arr1
   
-  p hsh1.keys[0].flatten
+  p arr2 = hsh1.keys[0].flatten
   
   
   
